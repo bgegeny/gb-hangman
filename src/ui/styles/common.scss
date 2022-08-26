@@ -1,0 +1,48 @@
+html body {
+  background-color: #f0f0f0;
+};
+
+svg {
+  width: 100px;
+  height: 100px
+};
+
+svg path, svg circle {
+  stroke: #000;
+  stroke-width: 0.25;
+  stroke-linecap: round;
+  fill: none;
+};
+
+header {
+  font-size: 2em;
+  text-align: center;
+};
+
+.general {
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 480px;
+  padding: 30px;
+};
+
+.bold {
+  font-weight: bold;
+};
+
+.center {
+  text-align: center;
+};
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+};
+
+.btn {
+  margin: 20px;
+};

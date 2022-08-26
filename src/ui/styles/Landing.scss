@@ -1,0 +1,31 @@
+.grid-container {
+  width: 160px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+};
+
+.grid-item {
+  padding: 5px;
+  text-align: center;
+  margin: 5px;
+  cursor:pointer;
+};
+
+.random-choice-btn {
+  border: 3px solid #f0f0f0;
+  width: 130px;
+  padding: 5px;
+  cursor:pointer;
+};
+
+.active {
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+};
+
+.inactive {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid #f0f0f0;
+};
